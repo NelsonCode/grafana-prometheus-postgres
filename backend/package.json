@@ -1,0 +1,20 @@
+{
+  "name": "prisma-node-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "migrate:dev": "npx prisma migrate dev --name init",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^4.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.0.0"
+  }
+}
